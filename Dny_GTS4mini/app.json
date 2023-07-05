@@ -1,0 +1,128 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1023439,
+    "appName": "Dny",
+    "appType": "watchface",
+    "version": {
+      "code": 2,
+      "name": "1.1.0"
+    },
+    "icon": "preview.png",
+    "vender": "MelianMiko",
+    "description": "Simple watch face. Background color changes with week day, water level shows battery level."
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "1.0.0",
+      "target": "1.0.1",
+      "minVersion": "1.0.0"
+    }
+  },
+  "targets": {
+    "amazfit-gts4mini": {
+      "module": {
+        "watchface": {
+          "path": "watchface/Device_Gts4mini",
+          "main": 1,
+          "editable": 0,
+          "lockscreen": 0,
+          "photoscreen": 0
+        }
+      },
+      "platforms": [
+        {
+          "name": "gts4mini-cn",
+          "deviceSource": 246
+        },
+        {
+          "name": "gts4mini-gl",
+          "deviceSource": 247
+        }
+      ],
+      "designWidth": 336
+    },
+    "mi-band7": {
+      "module": {
+        "watchface": {
+          "path": "watchface/Device_Band7",
+          "main": 1,
+          "editable": 0,
+          "lockscreen": 0,
+          "photoscreen": 0
+        }
+      },
+      "platforms": [
+        {
+          "name": "amazfit-band7-nfc",
+          "deviceSource": 252
+        },
+        {
+          "name": "amazfit-band7",
+          "deviceSource": 253
+        },
+        {
+          "name": "amazfit-band7-w",
+          "deviceSource": 254
+        },
+        {
+            "name": "l66",
+            "deviceSource": 260
+        },
+        {
+            "name": "l66w",
+            "deviceSource": 261
+        },
+        {
+            "name": "l66_1",
+            "deviceSource": 262
+        },
+        {
+            "name": "l66w_2",
+            "deviceSource": 263
+        },
+        {
+            "name": "l66_3",
+            "deviceSource": 264
+        },
+        {
+            "name": "l66_4",
+            "deviceSource": 265
+        },
+        {
+            "name": "l66_5",
+            "deviceSource": 266
+        }
+      ],
+      "designWidth": 192
+    },
+    "amazfit-band7": {
+      "module": {
+        "watchface": {
+          "path": "watchface/Device_Band7",
+          "main": 1,
+          "editable": 0,
+          "lockscreen": 0,
+          "photoscreen": 0
+        }
+      },
+      "platforms": [
+        {
+          "name": "amazfit-band7-nfc",
+          "deviceSource": 252
+        },
+        {
+          "name": "amazfit-band7",
+          "deviceSource": 253
+        },
+        {
+          "name": "amazfit-band7-w",
+          "deviceSource": 254
+        }
+      ],
+      "designWidth": 192
+    }
+  },
+  "defaultLanguage": "en-US"
+}
